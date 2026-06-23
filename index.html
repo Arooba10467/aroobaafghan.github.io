@@ -1,73 +1,142 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arooba Afghan | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arooba Afghan | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+<div class="floating-bg"></div>
+
+<nav>
+    <div class="logo">🌸 Arooba Afghan</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
 <header>
-<h1>Arooba Afghan</h1>
-<p>Computer Science Student | AI Enthusiast | Python Developer</p>
+
+    <img src="profile.jpg" alt="Profile" class="profile-img">
+
+    <h1>Arooba Afghan</h1>
+
+    <p id="typing"></p>
+
+    <a href="#projects" class="btn">View My Work ✨</a>
+
 </header>
 
-<section>
-<h2>About Me</h2>
-<p>
-I'm a Computer Science student passionate about Artificial Intelligence,
-Machine Learning, and software development. I enjoy building practical AI
-applications and participating in technology competitions.
-</p>
+<section id="about">
+    <h2>🌷 About Me</h2>
+
+    <p>
+        I am a Computer Science student passionate about Artificial Intelligence,
+        Machine Learning, and Software Development. I enjoy building practical AI
+        applications and participating in hackathons and competitions.
+    </p>
 </section>
 
-<section>
-<h2>Projects</h2>
+<section id="projects">
+    <h2>💻 Projects</h2>
 
-<h3>BMI Diet Planner</h3>
-<p>AI-powered BMI calculator with personalized diet recommendations.</p>
+    <div class="cards">
 
-<h3>DaVinciBot</h3>
-<p>An AI chatbot for creativity, drawing guidance, and artistic inspiration.</p>
+        <div class="card">
+            <h3>BMI Diet Planner</h3>
+            <p>
+                AI-powered BMI calculator with personalized
+                diet recommendations.
+            </p>
+        </div>
 
-<h3>Chess Game</h3>
-<p>A web-based chess game built using Python and Streamlit.</p>
+        <div class="card">
+            <h3>DaVinciBot</h3>
+            <p>
+                AI chatbot for creativity, drawing guidance,
+                and artistic inspiration.
+            </p>
+        </div>
 
+        <div class="card">
+            <h3>Chess Game</h3>
+            <p>
+                Interactive web chess game built with
+                Python and Streamlit.
+            </p>
+        </div>
+
+    </div>
 </section>
 
-<section>
-<h2>Achievements</h2>
+<section id="achievements">
+    <h2>🏆 Achievements</h2>
 
-<ul>
-<li>Merit Holder </li>
-<li>2nd Place – NAB Poster Competition</li>
-<li>1st Place – AAMC National Painting Competition</li>
-<li>Harvard Puzzle Competition Certificate</li>
-<li>Winner of multiple Tech Quiz Competitions</li>
-<li>Hackathon Participant</li>
-</ul>
-
+    <ul>
+        <li>Merit Scholarship Holder (Twice)</li>
+        <li>2nd Place – NAB Poster Competition</li>
+        <li>1st Place – AAMC National Painting Competition</li>
+        <li>Harvard Puzzle Competition Certificate</li>
+        <li>Winner of Multiple Tech Quiz Competitions</li>
+        <li>Hackathon Participant</li>
+    </ul>
 </section>
 
-<section>
-<h2>Skills</h2>
+<section id="skills">
+    <h2>🧠 Skills</h2>
 
-<p>
-Python • Streamlit • AI • Machine Learning • GitHub • HTML • CSS • SQL
-</p>
-
+    <div class="skills">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Artificial Intelligence</span>
+        <span>Streamlit</span>
+        <span>GitHub</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>SQL</span>
+    </div>
 </section>
 
-<section>
-<h2>Contact</h2>
+<section id="contact">
+    <h2>📩 Contact</h2>
 
-<p>Email: aroobahussain288@gmail.com</p>
-<p>GitHub: https://github.com/Arooba10467</p>
-<p>LinkedIn: https://www.linkedin.com/in/arooba-h-62325b316/</p>
+    <p>Email: aroobahussain288@gmail.com</p>
 
+    <p>
+        GitHub:
+        <a href="https://github.com/Arooba10467" target="_blank">
+            github.com/Arooba10467
+        </a>
+    </p>
+
+    <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/arooba-h-62325b316" target="_blank">
+            Connect with Me
+        </a>
+    </p>
 </section>
+
+<footer>
+    Made with 🌸 by Arooba Afghan
+</footer>
+
+<button id="topBtn">⬆</button>
+
+<script src="script.js"></script>
 
 </body>
 </html>
-
+```
