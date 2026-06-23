@@ -8,19 +8,7 @@
 html{
     scroll-behavior:smooth;
 }
-.profile-img{
-    width:220px;
-    height:220px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid white;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
-    transition:0.4s;
-}
 
-.profile-img:hover{
-    transform:scale(1.05) rotate(2deg);
-}
 body{
     font-family:'Quicksand',sans-serif;
     background:#FFF6F1;
@@ -73,11 +61,33 @@ header{
 }
 
 .profile-img{
-    width:180px;
-    height:180px;
+    width:250px;
+    height:250px;
+    object-fit:cover;
     border-radius:50%;
-    border:5px solid white;
-    box-shadow:0 0 20px rgba(0,0,0,.1);
+    border:8px solid white;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+    transition:all 0.4s ease;
+}
+
+.profile-img:hover{
+    transform:scale(1.05);
+    box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
+.profile-img{
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-12px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
 }
 
 h1{
