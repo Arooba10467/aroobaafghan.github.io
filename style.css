@@ -8,7 +8,19 @@
 html{
     scroll-behavior:smooth;
 }
+.profile-img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid white;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:0.4s;
+}
 
+.profile-img:hover{
+    transform:scale(1.05) rotate(2deg);
+}
 body{
     font-family:'Quicksand',sans-serif;
     background:#FFF6F1;
